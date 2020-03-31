@@ -1,0 +1,66 @@
+# mapping of scale types to Wikidata types.  Ignore blank lines and those
+# beginning with a hash symbol (comments).  Line format is space separated
+# sequence like "scaletype (qid:name)+" where the :name is optional.  Ignore
+# qids that do not begin with a Q.
+
+# no subtypes
+PER Q5:human
+
+ORG -type ORG -ids xQ43229:organization Q163740:nonprofit_organization Q1530022:religious_organization Q5341295:educational_organization Q4438121:sports_organizations Q79913:non-governmental_organization  Q5193377:cultural_institution Q196776:certificate_authority Q431603:advocacy_group Q484652:international_organization Q4358176:council Q996839:Fraternal_organization Q11032:newspaper Q194166:consortium Q15911314:association Q155271:think_tank  Q45103187:scientific_organisation
+
+# no subtypes
+COMM Q783794:company Q167037:corporation Q4830453:business 
+
+POL xQ7210356:political_organization Q7210356:political organisation Q7188:government Q7278:political party Q35798:executive branch Q211201:soviet Q245065:intergovernmental organization Q417633:self-governance Q618652:electoral list Q211201:soviet Q848197:parliamentary group Q1063239:polity Q1267114:??? Q1393724:political faction Q1718043:K-Group Q2493450:juvenile political organisation Q10712411:constituency association 
+
+GPE -type GPE -ids xxQ15642541:human-geographic_territorial_entity xQ56061:administrative_territorial_entity Q7275:state Q107390:federated_state Q15284:municipality Q28575:county Q30059:arrondissement Q34876:province Q41691:demilitarized_zone Q107390:federated_state xQ123705:neighborhood Q149621:district Q188509:suburb Q475050:federal_district Q515716:prefecture Q7930989:city/town Q498162:census-designated_place Q580112:military_district xQ486972:human_settlement Q852446:administrative_territorial_entity_of_the_United_States 
+
+#LOC xQ35145263:natural_geographic_object Q5107:continent Q9430:ocean Q23790:natural_monument Q372363:geotope xQ34038:waterfall Q34763:peninsula xQ35509:cave Q39816:valley xQ47089:fault Q124714:spring Q170321:wetland xQ175208:biotope xQ183273:geographical_pole xQ192810:graben Q194408:nunatak xQ212136:horst xQ286899:sump Q357384:cascade Q386426:natural_heritage Q23790:natural_monument xQ465088:alluvial_fan xQ488416:lava_field Q531953:outcrop Q631305:rock_formation Q1233637:river_mouth Q1334383:arete xQ1531260:glacier_gate xQ2066318:pedotope xQ2231510:col Q3240715:crater xQ11668898:highland Q12766313:geomorphological_unit Q15104915:mineral_deposit Q19850234:hill_group Q29025902:volcanic_landform Q30914189:geologic_unit Q48220677:group_of_springs Q48824047:ice_rumple Q62129143:esker_group Q271669:landform
+#LOC xQ35145263:natural_geographic_object Q5107:continent Q9430:ocean Q23790:natural_monument xQ372363:geotope Q34038:waterfall Q34763:peninsula xQ35509:cave Q39816:valley xQ47089:fault xQ170321:wetland xQ175208:biotope xQ183273:geographical_pole xQ192810:graben xQ194408:nunatak xQ212136:horst xQ286899:sump Q357384:cascade Q386426:natural_heritage Q23790:natural_monument xQ465088:alluvial_fan xQ488416:lava_field xQ531953:outcrop xQ631305:rock_formation xQ1233637:river_mouth xQ1334383:arete xQ1531260:glacier_gate xQ2066318:pedotope xQ2231510:col Q3240715:crater xQ11668898:highland xQ12766313:geomorphological_unit Q15104915:mineral_deposit xQ19850234:hill_group xQ29025902:volcanic_landform xQ30914189:geologic_unit xQ48220677:group_of_springs xQ48824047:ice_rumple xQ62129143:esker_group Q271669:landform Q15324:body_of_water 
+
+LOC Q5107:continent Q23790:natural_monument Q34038:waterfall Q34763:peninsula Q39816:valley Q357384:cascade Q386426:natural_heritage Q23790:natural_monument xQ3240715:crater Q15104915:mineral_deposit Q271669:landform Q15324:body_of_water
+
+#FAC Q13226383:facility 
+
+FAC Q13226383:facility Q2151479:Execution_site Q501519:Rescue_coordination_centre Q260676:amusement_arcade Q1533036:animal_sanctuary Q219760:bazaar Q167346:botanical_garden Q905318:coking_plant Q2385804:educational_institution Q174814:electrical_substation Q83405:factory Q1195942:fire_station Q205495:gas_station Q1664720:institute Q483242:laboratory Q7075:library Q132510:market Q330284:marketplace Q18691599:military_facility Q820477:mine Q62832:observatory Q44782:port Q40357:prison Q1244442:school_building Q1976594:science_park Q521839:shooting_range xQ213441:shop Q47524426:sports_centre Q1076486:sports_venue Q719456:station Q548662:transportation_stop Q43501:zoo
+
+GOVT  Q2519340:administrative_building xQ1220959:building_of_public_administration  xQ16831714:government_building
+
+AIR xQ1248784:airport Q62447:aerodrome
+
+AIRP Q62447:aerodrome
+
+AIRC Q11436:aircraft
+
+EVNT Q3839081:disaster Q198:war Q8016240:trial Q175331:demonstration Q114380:financial_crisis Q149086:homicide Q201676:funeral Q1403016:arrest Q12566453:birth Q4:death Q49836:wedding Q7283:terrorism Q45382:coup_détat Q124757:riot Q598041:prison_escape Q1371150:hostage_crisis Q179057:explosion Q2223653:terrorist_attack Q16510064:sporting_event
+
+VEH Q42889:vehicle
+
+COMP Q3966:computer_hardware Q68:computer Q7397:software Q1301371:computer_network Q5290:computer_monitor Q178648:peripheral_equipment 
+
+MIL  Q18643213:military_equipment Q728:weapon
+
+# same as MIL
+MILN  Q18643213:military_equipment Q728:weapon
+
+# no instances
+MILG Q18643213:military_equipment Q728:weapon
+
+CHEM xQ79529:chemical_substance Q11344:chemical_element  Q7946:mineral Q8386:drug Q12140:medication Q12870:explosive_material Q40867:poison  Q170065:pathogen Q22981361:volatile_compound Q2746959:agrochemical Q83323:fertilizer xQ146439:silicone xQ193784:motor_oil Q274579:preservative Q11474:plastic xQ81163:polymer xQ11173:chemical_compound xQ11053:RNA xQ11158:acid Q11364:hormone Q462174:hydrate Q1069267:chemical_product Q177911:steroid  Q169336:mixture 
+
+TITLE Q216353:title Q4164871:position
+
+MONEY xQ1368:money Q8142:currency 
+
+# given (first) name - don't use aliases
+GNAM Q202444:given_name Q12308941:male_given_name Q11879590:female_given_name
+
+# Family name (Surname) - don't use aliases
+FNAM Q101352
+
+# no subtypes
+LANG Q20162172:human_language
+
+# occupation
+OCC Q12737077:occupation
+
